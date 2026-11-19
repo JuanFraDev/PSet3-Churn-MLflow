@@ -1,0 +1,12 @@
+{
+  "origen": "PSET2_CHURN.OBT.CUSTOMER_CHURN_OBT",
+  "hash_dataset": "d394e39192c935f813db937647ea608341131d5b3021696fbbb186daff7043d3",
+  "seed": 42,
+  "n_total": 7043,
+  "n_train": 5634,
+  "n_test": 1409,
+  "estratificacion": true,
+  "cv": "StratifiedKFold(5) solo train",
+  "target_train_rate": 0.2653532126375577,
+  "nota_fecha": "INGESTED_AT es tiempo de carga, no fecha de abandono"
+}

@@ -1,0 +1,107 @@
+{
+  "origen": "PSET2_CHURN.OBT.CUSTOMER_CHURN_OBT",
+  "filas": 7043,
+  "hash_snapshot": "d394e39192c935f813db937647ea608341131d5b3021696fbbb186daff7043d3",
+  "features": {
+    "MONTHLY_NEW_CUSTOMER": {
+      "explicacion": "Contrato mensual y TENURE_MONTHS <= 12",
+      "tabla": [
+        {
+          "feature": 0,
+          "clientes": 5049,
+          "abandonos": 845,
+          "tasa": 0.16735987324222618,
+          "tasa_pct": 16.74
+        },
+        {
+          "feature": 1,
+          "clientes": 1994,
+          "abandonos": 1024,
+          "tasa": 0.5135406218655968,
+          "tasa_pct": 51.35
+        }
+      ]
+    },
+    "SERVICE_BUNDLE_COUNT": {
+      "explicacion": "Suma de seis servicios con valor Yes",
+      "tabla": [
+        {
+          "n_servicios": 0,
+          "clientes": 2219,
+          "abandonos": 475,
+          "tasa": 0.21406038756196485,
+          "tasa_pct": 21.41
+        },
+        {
+          "n_servicios": 1,
+          "clientes": 966,
+          "abandonos": 442,
+          "tasa": 0.4575569358178054,
+          "tasa_pct": 45.76
+        },
+        {
+          "n_servicios": 2,
+          "clientes": 1033,
+          "abandonos": 370,
+          "tasa": 0.35818005808325265,
+          "tasa_pct": 35.82
+        },
+        {
+          "n_servicios": 3,
+          "clientes": 1118,
+          "abandonos": 306,
+          "tasa": 0.2737030411449016,
+          "tasa_pct": 27.37
+        },
+        {
+          "n_servicios": 4,
+          "clientes": 852,
+          "abandonos": 190,
+          "tasa": 0.22300469483568075,
+          "tasa_pct": 22.3
+        },
+        {
+          "n_servicios": 5,
+          "clientes": 571,
+          "abandonos": 71,
+          "tasa": 0.1243432574430823,
+          "tasa_pct": 12.43
+        },
+        {
+          "n_servicios": 6,
+          "clientes": 284,
+          "abandonos": 15,
+          "tasa": 0.0528169014084507,
+          "tasa_pct": 5.28
+        }
+      ]
+    }
+  },
+  "columnas_para_modelar": [
+    "GENDER",
+    "SENIOR_CITIZEN",
+    "PARTNER",
+    "DEPENDENTS",
+    "CONTRACT",
+    "PAPERLESS_BILLING",
+    "PAYMENT_METHOD",
+    "PHONE_SERVICE",
+    "MULTIPLE_LINES",
+    "INTERNET_SERVICE",
+    "ONLINE_SECURITY",
+    "ONLINE_BACKUP",
+    "DEVICE_PROTECTION",
+    "TECH_SUPPORT",
+    "STREAMING_TV",
+    "STREAMING_MOVIES",
+    "TENURE_MONTHS",
+    "MONTHLY_CHARGES",
+    "TOTAL_CHARGES",
+    "TOTAL_CHARGES_MISSING",
+    "MONTHLY_NEW_CUSTOMER",
+    "SERVICE_BUNDLE_COUNT"
+  ],
+  "drop_por_redundancia": "NEW_CUSTOMER_WITHOUT_CHARGES",
+  "riesgo_temporal": "Disponibilidad previa al abandono no verificable por ausencia de historial fechado.",
+  "plan": "Separación estratificada única y preprocessing dentro de Pipeline/ColumnTransformer en train/CV."
+}

@@ -1,0 +1,17 @@
+{
+  "nombre": "Candidato_Logistica",
+  "parent_run_id": "53e27c5f9ccf4f12bd30d0c3405a8b42",
+  "best_child_run_id": "a58dce37a17a4a44b602d05e2eef4925",
+  "default_ap": 0.6531045641197364,
+  "default_std": 0.011635590056243,
+  "tuned_ap": 0.6537875367589175,
+  "tuned_std": 0.011318467319917447,
+  "mejora_ap": 0.0006829726391811564,
+  "mejora_supera_variabilidad": false,
+  "train_ap": 0.6621580834630596,
+  "brecha_train_cv": 0.008370546704142057,
+  "fit_refit_seconds": 0.04671478271484375,
+  "elapsed_seconds": 148.91506291899987,
+  "num_config": 30,
+  "best_params_json": "{\"modelo__C\": \"73.92266140516048\", \"modelo__class_weight\": \"None\", \"modelo__tol\": \"0.00023345864076016249\"}"
+}

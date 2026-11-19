@@ -1,0 +1,17 @@
+{
+  "nombre": "Candidato_SVC",
+  "parent_run_id": "ef6c4b9e4ce44f36bf98e6b8eecc3f3e",
+  "best_child_run_id": "80b1f00ab47c411ab5386366b62258f7",
+  "default_ap": 0.6342043376564342,
+  "default_std": 0.016595048089825,
+  "tuned_ap": 0.6510743942563668,
+  "tuned_std": 0.010824191547433762,
+  "mejora_ap": 0.01687005659993257,
+  "mejora_supera_variabilidad": true,
+  "train_ap": 0.6541520347201751,
+  "brecha_train_cv": 0.0030776404638083177,
+  "fit_refit_seconds": 2.572521924972534,
+  "elapsed_seconds": 543.744418231,
+  "num_config": 30,
+  "best_params_json": "{\"modelo__C\": \"1.211537999246959\", \"modelo__class_weight\": \"balanced\", \"modelo__gamma\": \"0.0020013420622879987\"}"
+}

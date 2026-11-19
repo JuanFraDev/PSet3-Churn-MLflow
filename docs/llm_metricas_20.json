@@ -1,0 +1,22 @@
+{
+  "modelo_llm": "GPT-6 (ChatGPT, evaluación manual de fichas)",
+  "fecha_utc": "2026-11-19T04:36:15.816410+00:00",
+  "n_ejemplos": 20,
+  "positivos_reales": 5,
+  "negativos_reales": 15,
+  "accuracy": 0.9,
+  "precision_clase_abandona": 0.8,
+  "recall_clase_abandona": 0.8,
+  "f1_clase_abandona": 0.8,
+  "matriz_confusion_orden_0_1": [
+    [
+      14,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "advertencia": "Prueba exploratoria, no validación cruzada ni métricas de holdout; no inferir beneficio empresarial."
+}

@@ -1,0 +1,17 @@
+{
+  "nombre": "Candidato_HistGradientBoosting",
+  "parent_run_id": "bede0749c3594277b1dc3eced16057e6",
+  "best_child_run_id": "8e23b93ced10492fb7b3385b1b78ed61",
+  "default_ap": 0.6413110863324305,
+  "default_std": 0.028263136357796,
+  "tuned_ap": 0.6690685558336962,
+  "tuned_std": 0.017209718252257762,
+  "mejora_ap": 0.027757469501265675,
+  "mejora_supera_variabilidad": false,
+  "train_ap": 0.7134471811489732,
+  "brecha_train_cv": 0.04437862531527703,
+  "fit_refit_seconds": 0.1413891315460205,
+  "elapsed_seconds": 186.70009563699932,
+  "num_config": 30,
+  "best_params_json": "{\"modelo__l2_regularization\": \"1.1008110571039521e-05\", \"modelo__learning_rate\": \"0.05681142678077596\", \"modelo__max_depth\": \"3\", \"modelo__max_iter\": \"121\", \"modelo__max_leaf_nodes\": \"39\", \"modelo__min_samples_leaf\": \"60\"}"
+}

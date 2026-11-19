@@ -1,0 +1,11 @@
+{
+  "source": "PSET2_CHURN.OBT.CUSTOMER_CHURN_OBT",
+  "filas": 7043,
+  "columnas": 24,
+  "clientes_unicos": 7043,
+  "abandonos": 1869,
+  "tasa_abandono_pct": 26.537,
+  "total_charges_nulos": 11,
+  "contrato_mensual_tasa_pct": 42.71,
+  "sha256_dataset": "d394e39192c935f813db937647ea608341131d5b3021696fbbb186daff7043d3"
+}

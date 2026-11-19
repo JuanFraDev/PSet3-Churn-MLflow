@@ -1,0 +1,9 @@
+{
+  "champion_propuesto": "Candidato_Logistica",
+  "challenger_propuesto": "Candidato_HistGradientBoosting",
+  "criterio": "AP dentro de variabilidad y costo OOF similar (<1%): prevalece explicabilidad",
+  "delta_ap_cv": 0.015281019074778635,
+  "max_std_cv": 0.0172097182522577,
+  "costos_son_hipoteticos": true,
+  "nota": "decisión y umbrales fijados ANTES de usar test"
+}

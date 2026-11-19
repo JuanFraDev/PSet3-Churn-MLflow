@@ -1,0 +1,16 @@
+{
+  "n": 5,
+  "etiquetas_0": 5,
+  "etiquetas_1": 0,
+  "aciertos": 3,
+  "accuracy": 0.6,
+  "true_negatives": 3,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "true_positives": 0,
+  "advertencias": [
+    "La muestra original tiene 5 etiquetas negativas y 0 positivas.",
+    "Las etiquetas estaban presentes en el mismo archivo: esta demostración no constituye evaluación ciega.",
+    "Precision/recall/F1 de la clase de abandono no son estimables de manera útil con ausencia de positivos reales."
+  ]
+}

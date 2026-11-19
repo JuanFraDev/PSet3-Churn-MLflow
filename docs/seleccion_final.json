@@ -1,0 +1,27 @@
+{
+  "registry_name": "PSet3_Churn_Telco-modelo",
+  "modelos": {
+    "champion": {
+      "modelo": "Candidato_Logistica",
+      "run_id": "073176c1c6a14e12888e77500861ce73",
+      "version": "1",
+      "test_ap": 0.6614154005251454
+    },
+    "challenger": {
+      "modelo": "Candidato_HistGradientBoosting",
+      "run_id": "7bd2b27e60684f4995d10e38fc8c6c0f",
+      "version": "2",
+      "test_ap": 0.6684412841712557
+    }
+  },
+  "criterio": {
+    "champion_propuesto": "Candidato_Logistica",
+    "challenger_propuesto": "Candidato_HistGradientBoosting",
+    "criterio": "AP dentro de variabilidad y costo OOF similar (<1%): prevalece explicabilidad",
+    "delta_ap_cv": 0.015281019074778635,
+    "max_std_cv": 0.0172097182522577,
+    "costos_son_hipoteticos": true,
+    "nota": "decisión y umbrales fijados ANTES de usar test"
+  },
+  "dataset_hash": "d394e39192c935f813db937647ea608341131d5b3021696fbbb186daff7043d3"
+}

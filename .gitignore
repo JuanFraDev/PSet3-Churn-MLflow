@@ -1,0 +1,32 @@
+# Secretos y credenciales (no subir nunca)
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.p8
+*.key
+
+# Entornos y cache
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# MLflow local / archivos temporales
+mlruns/
+mlartifacts/
+mlflow.db
+*.sqlite
+*.sqlite3
+
+# Snapshot local - el origen autorizado es Snowflake
+*.parquet
+*.csv
+!docs/corridas.csv
+
+# Archivos temporales
+*.log
+.DS_Store
